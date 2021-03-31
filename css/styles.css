@@ -17,7 +17,24 @@ color rgba(255, 255, 255, 0.6)*/
     --footer-bk-color: #2F303A; 
 
 }
-
+.logo {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  
+  .logow {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  
+  .logob {
+    color: var(--accent-color);
+  }
+  
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
