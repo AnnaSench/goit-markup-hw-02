@@ -17,6 +17,19 @@ color rgba(255, 255, 255, 0.6)*/
     --footer-bk-color: #2F303A; 
 
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+address{
+  font-style: normal;
+}
 .logo {
     color: #000000;
     font-family: 'Raleway', sans-serif;
@@ -39,7 +52,7 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
   
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.7;
@@ -56,15 +69,15 @@ body {
       color: var(--accent-color);
 
   }
-  .contacts-list .link {
+   .link-contacts {
       color: var(--primary-text-color);
       font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
   }
-  .contacts-list .link:hover,
-  .contacts-list .link:focus {
+  .link-contacts:hover,
+  .link-contacts:focus {
       color: var(--accent-color);
   }
   .hero-title {
@@ -134,7 +147,20 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 }
+/* футер */
+footer {
+  
+  background-color: var(--footer-bk-color)
 
+}
+.contacts .link-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts .address {
+  color: var(--primary-white-color);
+}
 
 /*портфолио*/
    
@@ -147,9 +173,9 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
-.portfolio-list .test {
+.portfolio-list .class {
     
-    
+    color: var(--primary-text-color);
     font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
